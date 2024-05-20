@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.retrofit"
+    namespace = "com.example.corountine"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.retrofit"
+        applicationId = "com.example.corountine"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,10 +66,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-    implementation("com.suqareup.retrofit2:retrofit:2.9.0")
-    impl
-
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 }
