@@ -27,6 +27,8 @@ class ProductRepositoryImpl(
                 emit(Result.Error(message = "Error loading producuts"))
                 return@flow
             }
+
+            emit(Result.Success(productsFromApi.products))
         }
     }
 }
