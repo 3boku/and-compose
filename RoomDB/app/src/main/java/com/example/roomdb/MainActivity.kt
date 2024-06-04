@@ -22,8 +22,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.room.Room
+import com.ahmedapps.roomdatabase.presentation.AddNoteScreen
+import com.ahmedapps.roomdatabase.presentation.NotesScreen
 import com.example.roomdb.data.NotesDatabase
-import com.example.roomdb.presentation.NotesScreen
 import com.example.roomdb.presentation.NotesViewModel
 import com.example.roomdb.ui.theme.RoomDBTheme
 
